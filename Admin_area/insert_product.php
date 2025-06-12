@@ -40,16 +40,51 @@
 
                 <div class="form-outline mb-4 w-50 m-auto">
                    
-                    <select name="product_categories" id=""
-                    calss="product_category>
+                    <select name="product_category" id=""
+                    class="form-select">
                     <option value="">Select a Category</option>
                     <option value="">Category1</option>
                     <option value="">Category2</option>  
                     <option value="">Category3</option>
                     <option value="">Category4</option>
                     </select>
+                </div>
 
-                   
+                <div class="form-outline mb-4 w-50 m-auto">
+                   <select name="product_brands" id=""class="form-select">
+                    <option value="">Select a Brands</option>
+                    <option value="">Brands1</option>
+                    <option value="">Brands2</option>  
+                    <option value="">Brands3</option>
+                    <option value="">Brands4</option>
+                    </select>
+                </div>
+
+                <div class="form-outline mb-4 w-50 m-auto">
+                    <label for="product_image1" class="form-label">Product image 1</label>
+                    <input type="file" id="product_image1" name="product_image1" class="form-control" required>
+                </div>
+
+                <div class="form-outline mb-4 w-50 m-auto">
+                    <label for="product_image2" class="form-label">Product image 2</label>
+                    <input type="file" id="product_image2" name="product_image2" class="form-control" required>
+
+                </div>
+
+                <div class="form-outline mb-4 w-50 m-auto">
+                    <label for="product_image3" class="form-label">Product image 3</label>
+                    <input type="file" id="product_image3" name="product_image3" class="form-control" required>
+
+                </div>
+
+                <div class="form-outline mb-4 w-50 m-auto">
+                    <label for="product_price" class="form-label">Product price</label>
+                    <input type="text" id="product_price" name="product_price" class="form-control" placeholder="Enter product price" autocomplete="off" required>
+
+                </div>
+
+                 <div class="form-outline mb-4 w-50 m-auto">
+                    <input type="submit" name="insert_product" class="btn btn-info mb-3 px-3" value="Insert Product">
 
                 </div>
 
