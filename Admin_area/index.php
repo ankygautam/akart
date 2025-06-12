@@ -56,7 +56,7 @@ integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+
             </div>
             <div class="button text-center">
             
-            <button><a href="" class="nav-link text-light bg-info my-1">Insert Products</a><button>
+            <button><a href="insert_product.php" class="nav-link text-light bg-info my-1">Insert Products</a><button>
             <button><a href="" class="nav-link text-light bg-info my-1">View Products</a><button>
             <button><a href="index.php?insert_category" class="nav-link text-light bg-info my-1">Insert Catagories</a><button>
             <button><a href="" class="nav-link text-light bg-info my-1">View Catagories</a><button>
